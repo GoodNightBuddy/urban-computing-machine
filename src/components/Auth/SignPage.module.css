@@ -1,17 +1,4 @@
-:root {
-  --background-secondary: #f5f5f5;
-  --background-primary: #fafafa;
-
-  --message-sender: #3c4252;
-  --message-receiver: #e0e0e0;
-
-  --text-secondary: #b1b1b1;
-  --sidebar-size: 400px;
-  --main-size: calc(100% - 400px);
-
-  --line-height-normal: 20px;
-}
-
+@import url('../../index.css');
 /* sign in/sign up pages */
 
 main {
@@ -22,15 +9,12 @@ main {
   align-content: center;
 }
 
-
-.sign-up-page,
-.sign-in-page {
+.sign_page {
   justify-content: center;
   align-items: center;
 }
 
-.sign-up-form,
-.sign-in-form {
+.sign_form {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -39,20 +23,18 @@ main {
   margin-bottom: 30px;
 }
 
-.sign-up-form__title,
-.sign-in-form__title {
+.sign_form__title {
   margin: 0 0 20px;
   text-align: center;
 }
 
-.sign-up-form__link,
-.sign-in-form__link {
+.sign_form__link {
   color: var(--text-secondary);
   transition: 0.1s color ease;
+  margin-bottom: 10px;
 }
 
-.sign-up-form__link:hover,
-.sign-in-form__link:hover {
+.sign_form__link:hover {
   color: var(--message-receiver);
 }
 
@@ -116,7 +98,7 @@ select {
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
-  background-color: var(text-secondary);
+  background-color: var(--text-secondary);
   border: none;
   border-radius: 1px;
   cursor: pointer;

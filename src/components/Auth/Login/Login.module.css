@@ -16,18 +16,36 @@
     cursor: pointer;
 }
 
-.signOut{
-    font-weight: 700;
-    cursor: pointer;
+.btn_group{
     border: 1px solid #757575;
     display: flex;
-    align-items: center;
-    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px 10px;
     border-radius: 20px;
 }
 
-.signOut:hover{
-    background-color: rgba(128, 128, 128, 0.13);
+.sign_btn:nth-child(1) {
+    margin-bottom: 5px;
+}
+
+.sign_btn{
+    font-style: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    transition: color .1s ease-in;
+}
+
+.sign_btn:hover{
+    color: var(--text-secondary);
+}
+
+.btn_group:hover,
+.btn_group:hover > .sign_btn{
+    background-color: rgb(240, 237, 237);
 }
 
 .google:hover{
