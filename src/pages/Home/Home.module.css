@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.imageWrapper{
+    padding: 0 10px;
+}
+
 .homeImage{
     max-width: 600px;
     width: 100%;

@@ -35,7 +35,9 @@ const Home = () => {
                 error ? <div>Error...</div> : (isLoading || !filteredCharacters) ? <Loader/> :
                     <>
                         <Login/>
+                        <div className={styles.imageWrapper}>
                         <img className={styles.homeImage} src={HomeImage} alt="Home"/>
+                        </div>
                         <InputField value={value} onChange={onInputChange}/>
                         <CharacterList characters={filteredCharacters}/>
                     </>
