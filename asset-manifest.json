@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/urban-computing-machine/static/css/main.4ab3f17a.css",
-    "main.js": "/urban-computing-machine/static/js/main.6def0e71.js",
+    "main.css": "/urban-computing-machine/static/css/main.867af30c.css",
+    "main.js": "/urban-computing-machine/static/js/main.0821d977.js",
     "static/media/HomeImage.png": "/urban-computing-machine/static/media/HomeImage.7545611f962baddd3909.png",
     "index.html": "/urban-computing-machine/index.html",
-    "main.4ab3f17a.css.map": "/urban-computing-machine/static/css/main.4ab3f17a.css.map",
-    "main.6def0e71.js.map": "/urban-computing-machine/static/js/main.6def0e71.js.map"
+    "main.867af30c.css.map": "/urban-computing-machine/static/css/main.867af30c.css.map",
+    "main.0821d977.js.map": "/urban-computing-machine/static/js/main.0821d977.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ab3f17a.css",
-    "static/js/main.6def0e71.js"
+    "static/css/main.867af30c.css",
+    "static/js/main.0821d977.js"
   ]
 }
